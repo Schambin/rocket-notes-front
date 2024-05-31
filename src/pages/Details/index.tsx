@@ -1,4 +1,6 @@
-export function App() {
+import "./styles.css"
+
+export function Details() {
 
   return(
     <>
