@@ -1,4 +1,5 @@
-import { Container, Profile } from './styles.js'
+import { MdLogout } from "react-icons/md";
+import { Container, Profile, Logout } from './styles.js'
 
 export function Header() {
     return (
@@ -10,7 +11,12 @@ export function Header() {
                     <span>Bem-Vindo</span>
                     <strong>Sacudo</strong>
                 </div>
+
             </Profile>
+            
+                <Logout>
+                    <MdLogout />
+                </Logout>
         </Container>
     )
 }
