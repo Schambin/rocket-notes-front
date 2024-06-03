@@ -1,10 +1,16 @@
-import { Container } from './styles.js'
+import { Container, Profile } from './styles.js'
 
 export function Header() {
     return (
         <Container>
-            <h1>Rocket Notes</h1>
-            <span>Bem Vindo, Sacudo.</span>
+            <Profile>
+                <img src="https://github.com/schambin.png" alt="User Image" />
+
+                <div>
+                    <span>Bem-Vindo</span>
+                    <strong>Sacudo</strong>
+                </div>
+            </Profile>
         </Container>
     )
 }
