@@ -9,7 +9,7 @@ export function Header() {
 
                 <div>
                     <span>Bem-Vindo</span>
-                    <strong>Sacudo</strong>
+                    <strong>Schambao</strong>
                 </div>
 
             </Profile>
