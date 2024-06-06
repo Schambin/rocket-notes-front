@@ -1,9 +1,10 @@
-import { Container, Links } from "./styles.js";
+import { Container, Links, Content } from "./styles.js";
 
 import { Button } from "../../components/button";
 import { Header } from "../../components/header";
 import { Section } from "../../components/section";
 import { Tag } from "../../components/tag";
+import { ButtonText } from "../../components/buttonText";
 
 export function Details() {
 
@@ -12,19 +13,30 @@ export function Details() {
 
       <Header />
 
-      <Section title="Links Úteis"> 
-        <Links>
-          <li><a href="#"> Sexo </a></li>
-          <li>Sexo 2</li>
-        </Links>
-      </Section>
+      <main>
+        <Content>
+          <ButtonText title="Excluir nota" />
 
-      <Section title="Marcadores"> 
-        <Tag title="Node"/>
-        <Tag title="Express"/>
-      </Section>
+            <h1>Introdução ao React!</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate rerum reiciendis blanditiis fugit minus odio eveniet vero necessitatibus eos. Perferendis ratione sunt consequuntur vero facere eum qui deserunt ut nostrum.
+            </p>
+          <Section title="Links Úteis">
+            <Links>
+              <li><a href="#"> https://www.youtube.com/ </a></li>
+              <li><a href="#"> https://store.steampowered.com/ </a></li>
+            </Links>
+          </Section>
+
+          <Section title="Marcadores"> 
+            <Tag title="Node"/>
+            <Tag title="Express"/>
+          </Section>
+
+          <Button title="Voltar"/>
+        </Content>
+      </main>
       
-      <Button title="Voltar"/>
     </Container>
   )
 }
