@@ -13,6 +13,7 @@ export function Home() {
             <Header />
 
             <Menu>
+                
             </Menu>
 
             <Search>
@@ -20,8 +21,12 @@ export function Home() {
             </Search>
 
             <Content>
-                <NewNote />
+
             </Content>
+
+            <NewNote>
+
+            </NewNote>
 
         </Container>
     );
