@@ -17,13 +17,41 @@ export const Container = styled.div`
 `;
 
 export const Brand = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
     grid-area: brand;
-    background-color: red;
+
+    color: ${({ theme }) => theme.COLORS.ORANGE};
+
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: ${({ theme }) => theme.COLORS.BACKGROUND_700};
+
+    background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
+
+    > h1 {
+        font-size: 2.4rem;
+        color: ${({ theme }) => theme.COLORS.ORANGE};
+    }
 `;
 
 export const Menu = styled.ul`
     grid-area: menu;
-    background-color: green;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    padding-top: 7.4rem;
+    text-align: center;
+
+    /* padding-top: 6.4rem;
+    text-align: center;
+
+    > li {
+        margin-bottom: 2.4rem;
+    } */
+   
+    background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
 `;
 
 export const Search = styled.div`
@@ -38,5 +66,15 @@ export const Content = styled.div`
 
 export const NewNote = styled.button`
     grid-area: newnote;
-    background-color: yellow;
+    background-color: ${({ theme }) => theme.COLORS.ORANGE};
+    border: none;
+    outline: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    > svg {
+        margin-right: .8rem;
+    }
 `;
