@@ -56,12 +56,11 @@ export const Menu = styled.ul`
 
 export const Search = styled.div`
     grid-area: search;
-    background-color: violet;
+    margin: 6.4rem;
 `;
 
 export const Content = styled.div`
     grid-area: content;
-    background-color: blue;
 `;
 
 export const NewNote = styled.button`
