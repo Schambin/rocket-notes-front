@@ -19,4 +19,8 @@ export const Container = styled.button`
         opacity: 0.5;
         cursor: not-allowed;
     }
+    
+    > svg {
+            margin: 0 1.6rem;
+        }
 `;
