@@ -6,7 +6,8 @@ import { ThemeProvider } from 'styled-components';
 
 // import { Home } from './pages/Home';
 // import { SignIn } from './pages/SignIn';
-import { SignUp } from './pages/SignUp';
+// import { SignUp } from './pages/SignUp';
+import { Profile } from './pages/Profile';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
@@ -14,7 +15,8 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
       <GlobalStyles/>
       {/* <Home /> */}
       {/* <SignIn /> */}
-      <SignUp />
+      {/* <SignUp /> */}
+      <Profile />
     </ThemeProvider>
   </React.StrictMode>,
 )
