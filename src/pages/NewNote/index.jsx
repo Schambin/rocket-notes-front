@@ -1,9 +1,10 @@
 import { Container, Form } from './styles.js'
-import { MdClose } from "react-icons/md";
 
 import { Header } from '../../components/header'
 import { Input } from '../../components/input'
 import { TextArea } from '../../components/textArea'
+import { NoteItem } from '../../components/noteItem'
+import { Section } from '../../components/section'
 
 export function NewNote() {
     return (
@@ -20,8 +21,10 @@ export function NewNote() {
                     <Input placeholder="Título" />
                     <TextArea placeholder="Descrição" />
 
-                    <h2>Links Úteis</h2>
-                    
+                    <Section title="Links Úteis">
+                        <NoteItem value="https://rocketseat.com.br" />
+                        <NoteItem isNew={true} placeholder="URL"/>
+                    </Section>
                 </Form>
             </main>
         </Container>
