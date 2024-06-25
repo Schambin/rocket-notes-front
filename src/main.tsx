@@ -4,21 +4,13 @@ import theme from './styles/theme';
 import GlobalStyles from './styles/global';
 import { ThemeProvider } from 'styled-components';
 
-// import { Home } from './pages/Home';
-// import { SignIn } from './pages/SignIn';
-// import { SignUp } from './pages/SignUp';
-// import { Profile } from './pages/Profile';
-import { NewNote } from './pages/NewNote';
+import { Routes } from './routes/index.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <ThemeProvider theme={theme} > 
       <GlobalStyles/>
-      {/* <Home /> */}
-      {/* <SignIn /> */}
-      {/* <SignUp /> */}
-      {/* <Profile /> */}
-      <NewNote />
+      <Routes />
     </ThemeProvider>
   </React.StrictMode>,
 )
