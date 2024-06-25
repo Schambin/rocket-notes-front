@@ -49,5 +49,6 @@ export const Container = styled.div`
 
     .buttonRemove {
         color: red;
+        margin-right: .2rem;
     };
 `;
