@@ -1,4 +1,6 @@
-import { Container, Form, Avatar } from './styles'
+import { Container, Form, Avatar } from './styles';
+import { Link } from 'react-router-dom';
+
 import { FaLeftLong, FaEnvelope, FaLock, FaUser, FaCamera } from "react-icons/fa6";
 
 
@@ -9,9 +11,9 @@ export function Profile() {
     return (
         <Container>
             <header>
-                <a href="/">
+                <Link to="/">
                     <FaLeftLong /> 
-                </a>
+                </Link>
             </header>
 
             <Form>

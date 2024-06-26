@@ -4,11 +4,11 @@ import { Container, Profile, Logout } from './styles.js'
 export function Header() {
     return (
         <Container>
-            <Profile>
+            <Profile to="/profile">
                 <img src="https://github.com/schambin.png" alt="User Image" />
 
                 <div>
-                    <span>Bem-Vindo</span>
+                    <span>Bem-Vindo(a)</span>
                     <strong>Schambao</strong>
                 </div>
 
