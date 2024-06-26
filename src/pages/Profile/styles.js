@@ -9,7 +9,7 @@ export const Container = styled.div`
 
         padding: 0 12.4rem;
 
-        background: ${({ theme }) => theme.COLORS.BACKGROUND_800};
+        background: ${({ theme }) => theme.COLORS.BACKGROUND_900};
     
         display: flex;
         align-items: center;
