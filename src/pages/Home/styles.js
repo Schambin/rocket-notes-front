@@ -1,4 +1,5 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
     width: 100%;
@@ -37,19 +38,15 @@ export const Brand = styled.div`
 `;
 
 export const Menu = styled.ul`
-    grid-area: menu;
     display: flex;
     flex-direction: column;
     gap: 2.4rem;
+
+    grid-area: menu;
+
     padding-top: 7.4rem;
+    
     text-align: center;
-
-    /* padding-top: 6.4rem;
-    text-align: center;
-
-    > li {
-        margin-bottom: 2.4rem;
-    } */
    
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
 `;
@@ -65,9 +62,10 @@ export const Content = styled.div`
     overflow-y: auto;
 `;
 
-export const NewNote = styled.button`
+export const NewNote = styled(Link)`
     grid-area: newnote;
     background-color: ${({ theme }) => theme.COLORS.ORANGE};
+    color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
     border: none;
     outline: 0;
 

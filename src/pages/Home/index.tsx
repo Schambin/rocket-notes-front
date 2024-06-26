@@ -52,9 +52,8 @@ export function Home() {
                 </Section>
             </Content>
 
-            <NewNote>
-                <RxPlus />
-                Nova Nota
+            <NewNote to="/new">
+                <RxPlus /> Nova Nota
             </NewNote>
 
         </Container>

@@ -1,4 +1,5 @@
 import { Container, Links, Content } from "./styles.js";
+import { Link } from 'react-router-dom';
 
 import { Button } from "../../components/button";
 import { Header } from "../../components/header";

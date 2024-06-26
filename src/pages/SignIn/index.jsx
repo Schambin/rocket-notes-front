@@ -1,11 +1,12 @@
 import { Container, Form, Background } from "./styles";
+import { Link } from 'react-router-dom';
 import { FaEnvelope, FaLock } from "react-icons/fa6";
 
 
 import { Input } from "../../components/input"
 import { Button } from "../../components/button"
 
-export function SignUp () {
+export function SignIn () {
     return (
         <Container>
             <Form>
@@ -28,7 +29,7 @@ export function SignUp () {
 
                 <Button title="Entrar" />
                 
-                <a href="#"> Criar Conta </a>
+                <Link to="/register"> Criar Conta </Link>
             </Form>
 
             <Background />
