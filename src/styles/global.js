@@ -12,7 +12,7 @@ export default createGlobalStyle`
     }
 
     body {
-        background: ${({ theme }) => theme.COLORS.BACKGROUND_900};
+        background: ${({ theme }) => theme.COLORS.BACKGROUND_800};
         color: ${({ theme }) => theme.COLORS.WHITE};
         font-family: "Roboto Slab", sans-serif;
         font-size: 1.6rem;
