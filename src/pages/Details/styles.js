@@ -1,8 +1,3 @@
-//Normal css
-// body {
-//     background: rgba(255, 52, 52, 0.624);
-// }
-
 import styled from "styled-components";
 
 export const Container = styled.div`
