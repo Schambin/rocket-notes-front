@@ -35,7 +35,7 @@ export const Container = styled.div`
         }
         
     > input:active, input:focus {
-      border: 2px solid ${({ theme }) => theme.COLORS.GRAY_300};
+      /* border: 2px solid ${({ theme }) => theme.COLORS.GRAY_300}; */
       border-radius: 1rem;
       outline: none;
     }
