@@ -44,6 +44,7 @@ export const Form = styled.div`
 export const Background = styled.div`
     flex: 1;
     background: url(${backgroundImage}) no-repeat center center;
+    transform: scaleX(-1);
     opacity: 0.3;
     background-size: cover;
 `;
