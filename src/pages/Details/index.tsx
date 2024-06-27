@@ -34,7 +34,9 @@ export function Details() {
             <Tag title="Express"/>
           </Section>
 
-          <Button title="Voltar"/>
+          <Link to="/home">
+            <Button title="Voltar" to="/home"/>
+          </Link>
         </Content>
       </main>
       
